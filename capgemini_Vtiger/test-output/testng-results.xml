@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Before Suite]]>
+    </line>
+    <line>
+      <![CDATA[Before Test]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[PASS: Empty Organization Name was rejected successfully]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method - chrome]]>
+    </line>
+    <line>
+      <![CDATA[Error Message: Please enter Window Title.]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[After Test]]>
+    </line>
+    <line>
+      <![CDATA[After Suite]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-22T16:21:35 IST" name="Suite" finished-at="2026-10-22T16:23:06 IST" duration-ms="91317">
+    <groups>
+      <group name="Functional">
+        <method signature="HomeTest.verifyAddDashboardWidgetWithoutTitle()[pri:0, instance:homescript.HomeTest@3fc2959f]" name="verifyAddDashboardWidgetWithoutTitle" class="homescript.HomeTest"/>
+        <method signature="OrganizationTest.verifyOrganizationCannotBeCreatedWithoutName()[pri:0, instance:organizationscript.OrganizationTest@7e6f74c]" name="verifyOrganizationCannotBeCreatedWithoutName" class="organizationscript.OrganizationTest"/>
+      </group> <!-- Functional -->
+      <group name="Negative">
+        <method signature="HomeTest.verifyAddDashboardWidgetWithoutTitle()[pri:0, instance:homescript.HomeTest@3fc2959f]" name="verifyAddDashboardWidgetWithoutTitle" class="homescript.HomeTest"/>
+        <method signature="OrganizationTest.verifyOrganizationCannotBeCreatedWithoutName()[pri:0, instance:organizationscript.OrganizationTest@7e6f74c]" name="verifyOrganizationCannotBeCreatedWithoutName" class="organizationscript.OrganizationTest"/>
+      </group> <!-- Negative -->
+    </groups>
+    <test started-at="2026-10-22T16:21:35 IST" name="Test" finished-at="2026-10-22T16:23:06 IST" duration-ms="91317">
+      <class name="homescript.HomeTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:homescript.HomeTest@3fc2959f]" started-at="2026-10-22T16:22:24 IST" name="beforeMethod" finished-at="2026-10-22T16:23:05 IST" duration-ms="40819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddDashboardWidgetWithoutTitle()[pri:0, instance:homescript.HomeTest@3fc2959f]" started-at="2026-10-22T16:23:05 IST" name="verifyAddDashboardWidgetWithoutTitle" finished-at="2026-10-22T16:23:05 IST" duration-ms="967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error Message: Please enter Window Title.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddDashboardWidgetWithoutTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:homescript.HomeTest@3fc2959f]" started-at="2026-10-22T16:23:06 IST" name="afterMethod" finished-at="2026-10-22T16:23:06 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- homescript.HomeTest -->
+      <class name="organizationscript.OrganizationTest">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:organizationscript.OrganizationTest@7e6f74c]" started-at="2026-10-22T16:21:35 IST" name="dbConnection" finished-at="2026-10-22T16:21:35 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:organizationscript.OrganizationTest@7e6f74c]" started-at="2026-10-22T16:21:35 IST" name="bt" finished-at="2026-10-22T16:21:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:organizationscript.OrganizationTest@7e6f74c]" started-at="2026-10-22T16:21:35 IST" name="beforeMethod" finished-at="2026-10-22T16:22:20 IST" duration-ms="45546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method - chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyOrganizationCannotBeCreatedWithoutName()[pri:0, instance:organizationscript.OrganizationTest@7e6f74c]" started-at="2026-10-22T16:22:20 IST" name="verifyOrganizationCannotBeCreatedWithoutName" finished-at="2026-10-22T16:22:23 IST" duration-ms="2925" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Empty Organization Name was rejected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOrganizationCannotBeCreatedWithoutName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:organizationscript.OrganizationTest@7e6f74c]" started-at="2026-10-22T16:22:23 IST" name="afterMethod" finished-at="2026-10-22T16:22:24 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="at()[pri:0, instance:organizationscript.OrganizationTest@7e6f74c]" started-at="2026-10-22T16:23:06 IST" name="at" finished-at="2026-10-22T16:23:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:organizationscript.OrganizationTest@7e6f74c]" started-at="2026-10-22T16:23:06 IST" name="closeConnection" finished-at="2026-10-22T16:23:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- organizationscript.OrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
