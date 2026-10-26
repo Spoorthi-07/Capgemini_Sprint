@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>TestNG:  Chrome Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 23 12:07:03 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>778 seconds (778346 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='homescript.HomeTest.createNotebookFromExcel()'><b>createNotebookFromExcel</b><br>Test class: homescript.HomeTest</td>
+<td></td>
+<td>1</td>
+<td>homescript.HomeTest@815b41f</td></tr>
+<tr>
+<td title='calendarscript.CalendarTest.updateOwnerName()'><b>updateOwnerName</b><br>Test class: calendarscript.CalendarTest<br/>
+<a href="#Output-725026039" onClick='toggleBox("Output-725026039", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-725026039" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-725026039">
+Owner updated successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>calendarscript.CalendarTest@1573f9fc</td></tr>
+<tr>
+<td title='contactscript.ContactTest.verifyContactDetailsPersistAfterRefresh()'><b>verifyContactDetailsPersistAfterRefresh</b><br>Test class: contactscript.ContactTest<br/>
+<a href="#Output-1858218177" onClick='toggleBox("Output-1858218177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1858218177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1858218177">
+PASS: Contact details persisted after refresh: system01@example.com<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>contactscript.ContactTest@5542c4ed</td></tr>
+<tr>
+<td title='organizationscript.OrganizationTest.createOrganizationWithMandatoryFieldsOnly()'><b>createOrganizationWithMandatoryFieldsOnly</b><br>Test class: organizationscript.OrganizationTest<br/>
+<a href="#Output-1095319960" onClick='toggleBox("Output-1095319960", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1095319960" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1095319960">
+PASS: Organization created successfully: TestOrg_001_1792737484069<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>organizationscript.OrganizationTest@327514f</td></tr>
+<tr>
+<td title='contactscript.ContactTest.verifyContactOrganizationIntegration()'><b>verifyContactOrganizationIntegration</b><br>Test class: contactscript.ContactTest<br/>
+<a href="#Output-1645459073" onClick='toggleBox("Output-1645459073", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1645459073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1645459073">
+PASS: Contact created and associated with organization: Test_new_1792737881332<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>contactscript.ContactTest@5542c4ed</td></tr>
+<tr>
+<td title='organizationscript.OrganizationTest.verifyOrganizationCannotBeCreatedWithoutName()'><b>verifyOrganizationCannotBeCreatedWithoutName</b><br>Test class: organizationscript.OrganizationTest<br/>
+<a href="#Output-1298654974" onClick='toggleBox("Output-1298654974", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1298654974" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1298654974">
+PASS: Empty Organization Name was rejected successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>organizationscript.OrganizationTest@327514f</td></tr>
+<tr>
+<td title='homescript.HomeTest.verifyAddDashboardWidget()'><b>verifyAddDashboardWidget</b><br>Test class: homescript.HomeTest</td>
+<td></td>
+<td>2</td>
+<td>homescript.HomeTest@815b41f</td></tr>
+<tr>
+<td title='calendarscript.CalendarTest.verifyCreateCallAndInviteUser()'><b>verifyCreateCallAndInviteUser</b><br>Test class: calendarscript.CalendarTest<br/>
+<a href="#Output-237254877" onClick='toggleBox("Output-237254877", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-237254877" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-237254877">
+Invitee added successfully: Admin123@ Administrator1<br/>
+Save button clicked for event: Sprint Review Call<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>calendarscript.CalendarTest@1573f9fc</td></tr>
+<tr>
+<td title='organizationscript.OrganizationTest.verifyOrganizationModuleOpens()'><b>verifyOrganizationModuleOpens</b><br>Test class: organizationscript.OrganizationTest<br/>
+<a href="#Output-1375316610" onClick='toggleBox("Output-1375316610", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1375316610" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1375316610">
+PASS: Organizations module opened successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>organizationscript.OrganizationTest@327514f</td></tr>
+<tr>
+<td title='contactscript.ContactTest.verifyContactsModuleOpens()'><b>verifyContactsModuleOpens</b><br>Test class: contactscript.ContactTest<br/>
+<a href="#Output-1894810636" onClick='toggleBox("Output-1894810636", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1894810636" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1894810636">
+PASS: Contacts module opened successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>contactscript.ContactTest@5542c4ed</td></tr>
+<tr>
+<td title='contactscript.ContactTest.verifyCreateContact()'><b>verifyCreateContact</b><br>Test class: contactscript.ContactTest<br/>
+<a href="#Output-1781395025" onClick='toggleBox("Output-1781395025", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1781395025" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1781395025">
+PASS: Contact created successfully: smoke01@example.com<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>contactscript.ContactTest@5542c4ed</td></tr>
+<tr>
+<td title='homescript.HomeTest.verifyAddDashboardWidgetWithoutTitle()'><b>verifyAddDashboardWidgetWithoutTitle</b><br>Test class: homescript.HomeTest<br/>
+<a href="#Output-74361840" onClick='toggleBox("Output-74361840", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-74361840" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-74361840">
+Error Message: Please enter Window Title.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>homescript.HomeTest@815b41f</td></tr>
+<tr>
+<td title='calendarscript.CalendarTest.verifyCompleteCalendarEventFlow()'><b>verifyCompleteCalendarEventFlow</b><br>Test class: calendarscript.CalendarTest<br/>
+<a href="#Output-1661759378" onClick='toggleBox("Output-1661759378", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1661759378" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1661759378">
+SYSTEM TEST PASSED: Event created and displayed: Sprint Review Call<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>calendarscript.CalendarTest@1573f9fc</td></tr>
+</table><p>
+</body>
+</html>
